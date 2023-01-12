@@ -14,6 +14,16 @@ Atlas is a multi-market application designed to support a variety of markets and
 - Client-side: React.js, Redux-Persist, Redux-Toolkit, Tailwind css,React-Toastify, Stripe, Socket.IO
 - Server-side: Node.js, Mongoose, Cloudinary, Socket.IO, Stripe, JWT, Passport.js, Bcrypt.js
 - Database: MongoDB Atlas
+## Environment Variables
+The following environment variables are used in the MarketPlace project:
+- ACCESS_TOKEN_SECRET: The authentication secret .
+- CLOUDINARY_CLOUD_NAME: The Cloudinary cloud name for image hosting.
+- CLOUDINARY_API_KEY: The Cloudinary API key for image hosting.
+- CLOUDINARY_API_SECRET: The Cloudinary API secret for image hosting.
+- STRIPE_KEY: The Stripe API key for payment processing.
+- PORT: The port on which the server should run.
+- MONGODB_ATLAS_KEY: The URL for the MongoDB database.
+- REACT_APP_BASE_URLL: The URL for the client-side application.
 ## Getting Started
 To get started with Atlas, follow these steps:
 1. Clone the repository: `ggit clone --single-branch --branch dev https://github.com/MalakoN17/MultiMarket-team-project.git`
